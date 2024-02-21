@@ -3,19 +3,19 @@ import Leftpane from "../components/Leftpane";
 import './Home.css';
 const Home = () => {
   return <div className="homepage">
-    <p>Home page</p>
+    <h1>Home page</h1>
     <div className="bodysection flex">
       <div className="leftpane box">
-        <Leftpane/>
+        <Leftpane />
       </div>
       <div className="midpane box"></div>
       <div className="rightpane box"></div>
-      
-    </div>
-    <Footer/>
 
     </div>
-          
+    <Footer />
+
+  </div>
+
 };
 
 export default Home;
